@@ -1,18 +1,59 @@
-# Online Quiz
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
----
-## screenshots
-### Homepage
-![homepage snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/homepage.png?raw=true)
-### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/adminhomepage.png?raw=true)
-### Exam Rules
-![invoice snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/rules.png?raw=true)
-### Exam
-![doctor snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/exam.png?raw=true)
-### Teacher
-![doctor snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/teacher.png?raw=true)
----
+# Online Quiz Assessment
+Online Quiz is a web application for candidate to appear for an
+ online test in an effective way and there is no loss of time to
+ check the paper. Organizations can also easily check the performance
+ of the student that they give in an examination. As a result of this,
+ organizations are releasing results in less time. It also helps the
+ environment by saving paper. According to today’s requirement,
+ online examination project in PHP is very useful to learn it.
+
+https://user-images.githubusercontent.com/86065205/136216223-ac568187-44b9-454b-a8fb-f37d67a45f3e.mp4
+
+ Website-link: https://onlinequiz-app.herokuapp.com/
+ 
+## For Admin Login:
+- Username: `admin`
+- Password: `admin`
+ 
+## Authors
+- [@Palak Gupta](https://github.com/Palakgupta0908)
+- [@Paryank Namdeo](https://github.com/Paryank0419)
+- [@Zainab Raja](https://github.com/Zainabraja/)
+
+## Tech Stack:
+1. `Frontend` : HTML5, CSS3, Javascript.
+2. `Backend` : Python, Django.
+3. `Database` : MySQL.
+
+## Specifications Assigned:
+1. Assessment shall be MCQ pattern.
+2. There must be a question pool for the assessment. 
+3. The questions displayed in the assessment shall be only from that pool.
+4. Number of questions in the pool shall be more than questions displayed.
+5. Set a time limit for the assessment (individual timer for a question/optional).
+6. Question order shall be shuffled for each candidate appearing.
+```
+All specifications are satisfied 
+```
+# Getting Started ```project setup```
+Clone the source code in your local machine and install the requirements by running
+```bash
+pip install -r requirements.txt
+```
+Finally, run the application using
+```bash
+python app.py
+```
+on your python interpreter
+If everything executed well and in order then server with port 8000 must be given in terminal copy and paste in browser. Our site must be loaded on local server```.
+# CI/CD
+we have not used any integration tool
+For continuous deployment we have used heroku
+created new application on heroku
+connected through git repository
+Enabled automatic deployment of chnages in master branch of git repository
+Deployed the master branch.
+
 ## Functions
 ### Admin
 - Create Admin account using command
@@ -26,14 +67,6 @@ py manage.py createsuperuser
 - Can Add, View, Delete Course/Exams.
 - Can Add Questions To Respective Courses With Options, Correct Answer, And Marks.
 - Can View And Delete Questions Too.
-
-### Teacher
-- Apply for job in System. Then Login (Approval required by system admin, Then only teacher can login).
-- After Login, can see Total Number Of Student, Course, Questions are there in system on Dashboard.
-- Can Add, View, Delete Course/Exams.
-- Can Add Questions To Respective Courses With Options, Correct Answer, And Marks.
-- Can View And Delete Questions Too.
-> **_NOTE:_**  Basically Admin Will Hire Teachers To Manage Courses and Questions.
 
 ### Student
 - Create account (No Approval Required By Admin, Can Login After Signup)
@@ -61,19 +94,3 @@ py manage.py runserver
 http://127.0.0.1:8000/
 ```
 
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-
-## Drawbacks/LoopHoles
-- Admin/Teacher can add any number of questions to any course, But while adding course, admin provide question number.
-
-
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
