@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/86065205/136216223-ac568187-44b9-454b-
 
  Website-link: https://onlinequiz-app.herokuapp.com/
  
-## For Admin:
+## For Admin Login:
 - Username: `admin`
 - Password: `admin`
  
