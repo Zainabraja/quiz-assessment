@@ -7,7 +7,7 @@ Online Quiz is a web application for candidate to appear for an
  environment by saving paper. According to today’s requirement,
  online examination project in PHP is very useful to learn it.
 
-https://user-images.githubusercontent.com/86065205/136216223-ac568187-44b9-454b-a8fb-f37d67a45f3e.mp4
+https://user-images.githubusercontent.com/86065205/136245906-c9c3d7d4-7965-4e9c-91ac-08ae0b173461.mp4
 
  Website-link: http://walkoverquiz.pythonanywhere.com/
  
