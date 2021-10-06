@@ -6,6 +6,14 @@ Online Quiz is a web application for candidate to appear for an
  organizations are releasing results in less time. It also helps the
  environment by saving paper. According to today’s requirement,
  online examination project in PHP is very useful to learn it.
+
+https://user-images.githubusercontent.com/86065205/136216223-ac568187-44b9-454b-a8fb-f37d67a45f3e.mp4
+
+ Website-link: https://onlinequiz-app.herokuapp.com/
+ 
+## For Admin:
+- Username: `admin`
+- Password: `admin`
  
 ## Authors
 - [@Palak Gupta](https://github.com/Palakgupta0908)
