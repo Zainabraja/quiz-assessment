@@ -18,14 +18,14 @@ Online Quiz is a web application for candidate to appear for an
 3. `Database` : MySQL.
 
 ## Specifications Assigned:
-1. Assessment shall be MCQ pattern.:heavy_tick:
-2. There must be a question pool for the assessment.:heavy_tick:
-3. The questions displayed in the assessment shall be only from that pool.:heavy_tick:
-4. Number of questions in the pool shall be more than questions displayed.:heavy_tick:
-5. Set a time limit for the assessment (individual timer for a question/optional).:heavy_tick:
-6. Question order shall be shuffled for each candidate appearing.:heavy_tick:
+1. Assessment shall be MCQ pattern.
+2. There must be a question pool for the assessment. 
+3. The questions displayed in the assessment shall be only from that pool.
+4. Number of questions in the pool shall be more than questions displayed.
+5. Set a time limit for the assessment (individual timer for a question/optional).
+6. Question order shall be shuffled for each candidate appearing.
 ```
-All specifications are satisfied :heavy_tick:
+All specifications are satisfied 
 ```
 # Getting Started ```project setup```
 Clone the source code in your local machine and install the requirements by running
