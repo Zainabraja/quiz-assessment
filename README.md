@@ -9,7 +9,7 @@ Online Quiz is a web application for candidate to appear for an
 
 https://user-images.githubusercontent.com/86065205/136216223-ac568187-44b9-454b-a8fb-f37d67a45f3e.mp4
 
- Website-link: https://onlinequiz-app.herokuapp.com/
+ Website-link: http://walkoverquiz.pythonanywhere.com/
  
 ## For Admin Login:
 - Username: `admin`
