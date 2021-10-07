@@ -47,12 +47,12 @@ python app.py
 on your python interpreter
 If everything executed well and in order then server with port 8000 must be given in terminal copy and paste in browser. Our site must be loaded on local server```.
 # CI/CD
-we have not used any integration tool
-For continuous deployment we have used heroku
-created new application on heroku
+We have not used any integration tool
+For continuous deployment we have used Python Anywhere
+created new application on PythonAnywhere
 connected through git repository
-Enabled automatic deployment of chnages in master branch of git repository
-Deployed the master branch.
+Enabled automatic deployment of chnages in main branch of git repository
+Deployed the main branch.
 
 ## Functions
 ### Admin
